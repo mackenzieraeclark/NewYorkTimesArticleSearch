@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search New York Times</title>
+</head>
+<body>
+    <Header>
+        <div id="header">
+            <h1 id="headerText">New York Times Search</h1>
+        </div>
+    </Header>
+    <main>
+        <aside id="aside">
+            <!-- Search Parameters -->
+            <div id="searchParameters">
+                <!-- User Input -->
+                <label for="searchTerm">Search Term:</label>
+                <input id="searchTearm" type="text">
+            </div>
+            <!-- Records to Retrieve -->
+            <div id="retrieveNumber">
+                <!-- User Input -->
+                <label for="numberOfRecords">Number of Records to Retrieve:</label>
+                <select id="numberOfRecords" name="cars">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Start Year -->
+            <div id="startYear">
+                <!-- User Input -->
+                <label for="startYear">Start Year (Optional):</label>
+                <input type="text" id="startYearInput">
+            </div>
+            <!-- End Year -->
+            <div id="endYear">
+                <!-- User Input -->
+                <label for="endYear">End Year (Optional):</label>
+                <input type="text" id="endYearInput">
+            </div>
+            <button id="searchBtn">Search</button><button id="clearBtn">Clear Results</button>
+        </aside>
+        <div id="results">
+            <div id="top-articles">Top Articles</div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

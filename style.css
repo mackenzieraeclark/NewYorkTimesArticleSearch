@@ -1,0 +1,27 @@
+#header{
+    background-color: indigo;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+#headerText{
+    text-align: center;
+    color: whitesmoke;
+}
+
+#searchParamters, #retrieveNumber, #startYear, #endYear {
+    padding: 25px;
+}
+
+#searchBtn, #clearBtn {
+    margin: 10px;
+}
+
+#aside {
+    float: left;
+    padding: 20px;
+}
+
+#results {
+    padding: 20px;
+}
